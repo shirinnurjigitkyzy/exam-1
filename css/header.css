@@ -1,0 +1,193 @@
+:root{
+	--white: #ffffff;
+	--fa: #fafafa;
+    --lightgrey: #737373;
+    --grey: #252b42;
+    --black: #000000;
+	--green: #00A0C1;
+	--orange: #FFA62B;
+}
+header{
+    background-color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+header h1{
+    color:  #252B42;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.navbar ul {
+   display: flex; 
+   justify-content: space-between;
+}
+.navbar li{
+    margin: 0px 15px 0px 15px;
+}
+.navbar a{
+    color: #737373;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.navbar a:hover{
+    color: #000000;
+}
+.mobile-container{
+    display: none;
+}
+.hamburger{
+	display: none;
+}
+.hamburger img{
+	width: 40px;
+	height: auto;
+}
+#navbar-close img{
+	width: 50px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+#navbar-close{
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+#navbar-responsive ul li{
+	margin: 10px;
+}
+
+#navbar-responsive ul li a{
+	font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+	color: var(--lightgrey);
+}
+
+#navbar-responsive ul li a:hover{
+	color: var(--black);
+}
+
+.intro{
+   padding: 0px 50px;
+   background-image: url(../images/cover.svg);
+   height: 600px;
+   background-size: cover;
+   font-family:'Montserrat', sans-serif ;
+}
+.intro h1{
+    font-size: 58px;
+    padding-bottom: 50px;
+    padding-top: 150px;
+}
+.intro h4{
+    font-size: 20px;
+    color:  #737373;
+    padding-bottom: 40px;
+}
+.intro button{
+  align-items: center;
+  padding: 10px 36px;
+  width: 175px;
+  height: 48px;
+  border-radius: 37px;
+  border: 1px solid  #00A0C1;
+  color: #00A0C1;
+  background-color: transparent;
+  font-size: 14px;
+}
+.btn-1{
+    margin-left: 15px;
+}
+.intro button:hover{
+    background-color: #FFA62B;
+    color: white;
+    border: none;
+}
+.cards{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    left: 220px;
+}
+.cards-intro{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-1{
+    align-items: flex-start;
+    padding: 35px 40px;
+    gap: 10px;
+    margin-right: 30px;
+    width: 358px;
+    height: 210px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07); 
+}
+.card-1 h3{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.card-2{
+    align-items: flex-start;
+    padding: 35px 40px;
+    margin-right: 30px;
+    gap: 10px;
+    width: 358px;
+    height: 210px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);  
+}
+.card-2 h3{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.card-3{
+    align-items: flex-start;
+    padding: 35px 40px;
+    gap: 10px;
+    width: 358px;
+    height: 210px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07); 
+}
+.card-3 h3{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.card-1:hover{
+    background-color: #00A0C1;
+    color: white;
+}
+.card-2:hover{
+    background-color: #00A0C1;
+    color: white;
+}
+.card-3:hover{
+    background-color: #00A0C1;
+    color: white;
+}
+.card-1:hover svg path{
+    fill: white;
+}
+.card-2:hover svg path{
+    fill: white;
+}
+.card-3:hover svg path{
+    fill: white;
+}
+
